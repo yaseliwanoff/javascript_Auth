@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="main">
+    <div class="container">
+      <section class="main__wrapper">
+        <div class="wrapper__left">
+          <div class="register__form-block">
+            <h2 class="form__title">Register</h2>
+            <div class="form__description">
+              <p>To continue register on the site</p>
+            </div>
+            <form class="form" id="form" action="./login.html">
+              <div class="form__auth-wrapper">
+                <div class="form__auth-top">
+                  <div class="reset-input form__auth-firstname">
+                    <label for="name">Name</label>
+                    <input class="base__input top__input" placeholder="Your name" type="text" id="name">
+                  </div>
+                  <div class="reset-input form__auth-surname">
+                    <label for="surname">Surname</label>
+                    <input class="base__input top__input" placeholder="Your surname" type="text" id="surname">
+                  </div>
+                </div>
+                <div class="form__auth-bottom">
+                  <div class="mb reset-input form__auth-email">
+                    <label for="email">E-mail</label>
+                    <input class="base__input" placeholder="Your e-mail" type="email" id="email">
+                  </div>
+                  <div class="mb reset-input form__auth-password1">
+                    <label for="password1">Password</label>
+                    <input class="base__input" placeholder="Your password" type="password" id="password1">
+                  </div>
+                  <div class="mb reset-input form__auth-password2">
+                    <label for="password2">Confirm password</label>
+                    <input class="base__input" placeholder="Confirm your password" type="password" id="password2">
+                  </div>
+                </div>
+                <p class="error__message"></p>
+              </div>
+              <div class="form__buttons-wrapper">
+                <button class="btn btn__register" id="btn__register">Register</button>
+                <p class="buttons__message">No have an account?</p>
+                <button class="btn btn__login" id="btn__login">Login</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="wrapper__right">
+          <p class="welcome">welcome to</p>
+          <p class="website">Hight-teach Inc</p>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p>Код и дизайн проекта разрабатывал <a href="https://t.me/yselivanovv">Ярослав Селиванов</a></p>
+    </div>
+  </footer>
+  <script src="./assets/js/utils/helpers.js"></script>
+  <script src="./assets/js/auth/register.js"></script>
+  <script src="./assets/js/auth/auth.js"></script>
+</body>
+</html>
