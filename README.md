@@ -54,7 +54,7 @@ loginBtn.addEventListener("click", (event) => {
   }
 
   // Успешный вход
-  window.location.href = "dashboard.html";
+  window.location.href = "main.html";
 });
 ```
 2. register.js — Логика регистрации <br>
