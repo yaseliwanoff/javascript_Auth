@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="main">
+    <div class="container">
+      <section class="main__wrapper-login">
+        <div class="wrapper__left">
+          <div class="login__form-block">
+            <h2 class="form__title">Login</h2>
+            <div class="form__description">
+              <p>Sign in to continue</p>
+            </div>
+            <form class="form" id="form" action="./main.html">
+              <div class="form__auth-wrapper">
+                <div class="form__auth-bottom">
+                  <div class="mb reset-input form__auth-email">
+                    <label for="email">E-mail</label>
+                    <input class="base__input" placeholder="Your e-mail" type="email" id="email">
+                  </div>
+                  <div class="mb reset-input form__auth-password1">
+                    <label for="password1">Password</label>
+                    <input class="base__input" placeholder="Your password" type="password" id="password">
+                  </div>
+                </div>
+                <p class="error__message"></p>
+              </div>
+              <div class="form__buttons-wrapper">
+                <button class="btn btn__register" id="btn__login">Login</button>
+                <p class="buttons__message">Already have an account?</p>
+                <button class="btn btn__login" id="btn__register">Register</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="wrapper__right"></div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p>Код и дизайн проекта разрабатывал <a href="https://t.me/yselivanovv">Ярослав Селиванов</a></p>
+    </div>
+  </footer>
+  <script src="./assets/js/utils/helpers.js"></script>
+  <script src="./assets/js/auth/auth.js"></script>
+</body>
+</html>
