@@ -1,0 +1,19 @@
+:root {
+  --theme-dark-background-color-black: #000000;
+  --theme-dark-backgound-color-gray-dark: #181818;
+  --theme-dark-background-color-gray-medium: #1E1E1E;
+  --theme-dark-background-color-gray-light: #222222;
+  --theme-dark-background-color-border-gray: #2B2B2B;
+  --theme-dark-text-color-white: #FFFFFF;
+  --theme-dark-text-color-gray-dark: #626262;
+  --theme-dark-text-color-gray-light: #AEAEAE;
+
+  --theme-light-background-color-black: #FFFFFF;
+  --theme-light-backgound-color-gray-dark: #EAEAEA;
+  --theme-light-background-color-gray-medium: #F9F9F9;
+  --theme-light-background-color-gray-light: #FFFFFF;
+  --theme-light-background-color-border-gray: #EAEAEA;
+  --theme-light-text-color-black: #000000;
+  --theme-light-text-color-gray-dark: #AEAEAE;
+  --theme-light-text-color-gray-light: #AEAEAE;
+}
